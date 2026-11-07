@@ -1,0 +1,38 @@
+{
+  "name": "history-companion",
+  "version": "2.0.0",
+  "private": true,
+  "description": "O/L History Companion – interactive study platform for the Sri Lankan Grade 10 & 11 History syllabus",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx serve out",
+    "extract": "node scripts/extract-original.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/atkinson-hyperlegible": "5.3.0",
+    "@fontsource/gloock": "5.3.0",
+    "@fontsource/ibm-plex-mono": "5.3.0",
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.2",
+    "@react-three/postprocessing": "3.2.2",
+    "lucide-react": "1.70.0",
+    "next": "16.4.5",
+    "postprocessing": "6.39.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.5",
+    "@types/node": "22.19.0",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.187.0",
+    "postcss": "8.5.32",
+    "sharp": "0.35.5",
+    "tailwindcss": "4.3.5",
+    "typescript": "5.9.3"
+  }
+}
